@@ -1,0 +1,46 @@
+body {
+	background-color: rgb(13, 227, 235);
+	position: relative;
+}
+
+h1 {
+	text-align: center;
+	font-weight: bolder;
+}
+#card-container {
+	width: 60rem;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#navbar {
+	display: flex;
+	justify-content: space-between;
+	background-color: rgb(225, 58, 240);
+	padding: 5px;
+	margin: 0;
+}
+#start {
+	background-color: rgb(104, 245, 10);
+	font-weight: bold;
+	border-radius: 4px;
+	padding: 2px;
+}
+#restart {
+	background-color: red;
+	font-weight: bold;
+	border-radius: 4px;
+	padding: 2px;
+}
+
+#card div {
+	border: 2px solid black;
+	border-radius: 8px;
+	width: 150px;
+	height: 200px;
+	margin: 10px;
+	display: inline-block;
+	background-color: rgb(241, 245, 4);
+}
